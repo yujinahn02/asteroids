@@ -29,14 +29,14 @@ After computing the confusion matrix, I calculated an accuracy of 99.49%, recall
 Let’s take a look at another model, Support Vector Machines, a supervised machine learning model used for classification and regression, that separates the classes by maximizing a hyperplane between them.
 
 ### Evaluating Model 2 Using Evaluation Metrics
-![svm][svm.png)
+![svm](svm.png)
 From the confusion matrix, I calculated an accuracy of 96.6%, recall of 89.9%,precision of 88.7% and 89.33%. This model was worse at correctly predicting classes compared to our random forest model. 
 
 ## Model 3: Naive Bayes
-![naive](naive.png)
 My final model is a naive bayes model, a probabilistic machine learning model that applies bayes’ theorem and classifies instances based on their maximum likelihood of belonging to a particular class.
 
 ### Evaluating Model 3 Using Evaluation Metrics
+![naive](naive.png)
 From this confusion matrix, I computed an accuracy of 95.14%, recall of 82.61%, precision of 88.15%, and f1 score of 85.3%. A recall of  82.61%  implies that the model captures a substantial portion (about 82.61%) of the actual hazardous asteroids. All four metrics of this model are lower than those of the previous two models. But what does this mean in the context of correctly classifying hazardous asteroids?
 
 ## Comparing the Three Models
