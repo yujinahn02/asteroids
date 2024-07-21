@@ -12,8 +12,8 @@ When I decided to complete this project, I realized very early on that it would 
 Preparing data for analysis always takes up the most, and it was no different for this project. I reviewed the structure of my data - the number of rows and columns, summary statistics - and ensured that there were no missing values. Performing Exploratory Data Anlysis (EDA) allowed me to see the underlying relationships between the data, preventing surprises later on. Many of my columns also contained spaces and capital letters, so I manually converted them to lowercase and replaced the spaces with underscores after discovering, through trial and error, that the randomforest() function does not recognize them.
 I then used feature engineering to remove columns that were unnecessary in determining whether an asteroid is hazardous or not. Finally, I explored my target variable as shown in the bar plot before and found out it had a logical, binary form. <br/>
 
-To emphasize my feature engineering, I created a correlation matrix, and then a plot to highlight redundancy within the data. As you can see, est_dia_feet_min, est_dia_feet_max, est_dia_km_max, and est_dia_miles_max had a correlation of 1, meaning that they represented the same values but in different units of measurement. I removed all of these and kept just one to remove redundancy.
+To emphasize my feature engineering, I created a correlation matrix, and then a plot to highlight redundancy within the data. As you can see, est_dia_feet_min, est_dia_feet_max, est_dia_km_max, and est_dia_miles_max had a correlation of 1, meaning that they represented the same values but in different units of measurement. I removed all of these and kept just one to remove redundancy.<br/> ![correlation](correlation.png).
 
 ## Model 1: Random Forests
-
+The first model I created was a random forest model. It is a supervised machine learning method that builds multiple decision trees during training and can be used for both regression and classification. In my model, I created 500 trees to match my 4,000 something observations, and got the following tree split:
 
