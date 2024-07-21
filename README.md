@@ -29,9 +29,11 @@ After computing the confusion matrix, I calculated an accuracy of 99.49%, recall
 Let’s take a look at another model, Support Vector Machines, a supervised machine learning model used for classification and regression, that separates the classes by maximizing a hyperplane between them.
 
 ### Evaluating Model 2 Using Evaluation Metrics
+![svm][svm.png)
 From the confusion matrix, I calculated an accuracy of 96.6%, recall of 89.9%,precision of 88.7% and 89.33%. This model was worse at correctly predicting classes compared to our random forest model. 
 
 ## Model 3: Naive Bayes
+![naive](naive.png)
 My final model is a naive bayes model, a probabilistic machine learning model that applies bayes’ theorem and classifies instances based on their maximum likelihood of belonging to a particular class.
 
 ### Evaluating Model 3 Using Evaluation Metrics
